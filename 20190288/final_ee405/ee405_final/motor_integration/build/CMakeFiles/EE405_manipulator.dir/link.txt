@@ -1,0 +1,2 @@
+/usr/bin/ar qc libEE405_manipulator.a  CMakeFiles/EE405_manipulator.dir/include/Controller/ArticulatedSystem.cpp.o CMakeFiles/EE405_manipulator.dir/include/FileIO/MatrixFileIO.cpp.o CMakeFiles/EE405_manipulator.dir/include/Common/DirectTeaching.cpp.o CMakeFiles/EE405_manipulator.dir/include/Common/Kinematics.cpp.o CMakeFiles/EE405_manipulator.dir/include/KeyInput/getche.cpp.o CMakeFiles/EE405_manipulator.dir/include/GPIO/gpio_control.cpp.o CMakeFiles/EE405_manipulator.dir/include/GPIO/gripper_control.cpp.o
+/usr/bin/ranlib libEE405_manipulator.a

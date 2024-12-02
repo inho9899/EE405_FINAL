@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/dynamixel_sdk -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/save_waypoints.dir/src/save_waypoints.cpp.o -c /home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src/save_waypoints.cpp",
+  "file": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src/save_waypoints.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/dynamixel_sdk -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_manipulator.dir/include/Controller/ArticulatedSystem.cpp.o -c /home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/Controller/ArticulatedSystem.cpp",
+  "file": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/Controller/ArticulatedSystem.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/dynamixel_sdk -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_manipulator.dir/include/FileIO/MatrixFileIO.cpp.o -c /home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/FileIO/MatrixFileIO.cpp",
+  "file": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/FileIO/MatrixFileIO.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/dynamixel_sdk -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_manipulator.dir/include/Common/DirectTeaching.cpp.o -c /home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/Common/DirectTeaching.cpp",
+  "file": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/Common/DirectTeaching.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/dynamixel_sdk -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_manipulator.dir/include/Common/Kinematics.cpp.o -c /home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/Common/Kinematics.cpp",
+  "file": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/Common/Kinematics.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/dynamixel_sdk -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_manipulator.dir/include/KeyInput/getche.cpp.o -c /home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/KeyInput/getche.cpp",
+  "file": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/KeyInput/getche.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/dynamixel_sdk -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_manipulator.dir/include/GPIO/gpio_control.cpp.o -c /home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/GPIO/gpio_control.cpp",
+  "file": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/GPIO/gpio_control.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/dynamixel_sdk -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/EE405_manipulator.dir/include/GPIO/gripper_control.cpp.o -c /home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/GPIO/gripper_control.cpp",
+  "file": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/GPIO/gripper_control.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/dynamixel_sdk -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/manipulator_control_week1.dir/src/manipulator_control_week1.cpp.o -c /home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src/manipulator_control_week1.cpp",
+  "file": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src/manipulator_control_week1.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/dynamixel_sdk -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/testJacobian.dir/src/testJacobian.cpp.o -c /home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src/testJacobian.cpp",
+  "file": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src/testJacobian.cpp"
+},
+{
+  "directory": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++   -I/usr/include/eigen3 -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/include/dynamixel_sdk -I/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src  -O3 -DNDEBUG   -std=c++17 -o CMakeFiles/manipulator_control_week2.dir/src/manipulator_control_week2.cpp.o -c /home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src/manipulator_control_week2.cpp",
+  "file": "/home/kaist/DesignLab/20190288/final_ee405/ee405_final/motor_integration/src/manipulator_control_week2.cpp"
+}
+]

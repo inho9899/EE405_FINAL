@@ -1,0 +1,3 @@
+blue red blue 
+none red none 
+none none none 
