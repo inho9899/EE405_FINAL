@@ -8,7 +8,8 @@
 
 </div>
 
----
+
+<br>
 
 ## 📌 Project Overview
 
@@ -35,7 +36,8 @@ APT (Advanced Player for Tic-Tac-Toe) is a comprehensive embedded system develop
 
 The robot operates autonomously after a human player places their stone and signals turn completion, handling all subsequent analysis and physical actions independently.
 
----
+
+<br>
 
 ## 📷 1. Vision Module: Real-time Object Detection
 
@@ -65,15 +67,14 @@ The vision system serves as the robot's sensory organ, requiring both **reliabil
 
 <img src="yolodetection.png" alt="YOLOv5 Object Detection in Action" width="600"/>
 
-<sub>
-<b>YOLOv5 Real-time Detection:</b> The system successfully identifies and localizes red and blue game stones with bounding boxes and confidence scores, achieving 99.8% validation accuracy.
-</sub>
+<br>
 
 </div>
 
 The high accuracy is achieved through YOLO's robust characteristics combined with simplified object shapes and consistent background conditions.
 
----
+<br>
+
 
 ## 🧠 2. Decision Making: Minimax Algorithm Strategy
 
@@ -98,7 +99,8 @@ Backtracking: Select optimal choice
 
 The algorithm ensures the robot never loses by always selecting moves that minimize potential losses in worst-case scenarios.
 
----
+<br>
+
 
 ## 🔗 3. Communication: NFS-based System Integration
 
@@ -124,7 +126,8 @@ The algorithm ensures the robot never loses by always selecting moves that minim
 
 This demonstrates effective embedded networking design using standard protocols for inter-system communication.
 
----
+<br>
+
 
 ## ⚙️ 4. Control Module: Precision Motor Control
 
@@ -149,7 +152,8 @@ This demonstrates effective embedded networking design using standard protocols 
 
 The control system implements a finite state machine approach for reliable sequential operations.
 
----
+<br>
+
 
 ## 🔩 Hardware Configuration
 
@@ -173,16 +177,17 @@ The control system implements a finite state machine approach for reliable seque
 - **Color Contrast**: High-contrast markers for detection accuracy
 - **Workspace**: Controlled environment maximizing recognition performance
 
----
+<br>
+
 
 ## 🎮 Performance & Results
 
 ### Demonstration Metrics
-- **Live Demo**: **DRAW** against Teaching Assistant ✅
-- **Test Results**: **100+ games with zero losses** 🎯
-- **Decision Speed**: **< 1 second** move calculation ⚡
-- **Vision Accuracy**: **99.8%** on validation set 📸
-- **User Experience**: **Minimal interaction** required 🎮
+- **Live Demo**: **DRAW** against Teaching Assistant 
+- **Test Results**: **100+ games with zero losses** 
+- **Decision Speed**: **< 1 second** move calculation 
+- **Vision Accuracy**: **99.8%** on validation set 
+- **User Experience**: **Minimal interaction** required 
 
 ### Technical Performance
 ```
@@ -196,41 +201,42 @@ System Reliability:   99.8% accuracy
 
 These results demonstrate exceptional performance for a real-time control system, showcasing seamless integration of vision, AI, control, and communication subsystems.
 
----
+
+<br>
 
 ## 📂 Repository Structure
 ```
 EE405_FINAL/
-├── 📄 py2cpp.cpp              # Python-C++ interface
-├── 📖 readme.md               # Project documentation  
-├── ⚙️ test                    # Test executable
-├── 🧠 tictactoe.cpp           # Minimax algorithm (C++)
-├── 👁️ yolo2py.py              # YOLOv5 inference script
-├── 📁 ee405_final/
-│   ├── 📝 board.txt           # Game state file
-│   ├── 🔌 gpio.zip            # GPIO control files
-│   ├── 📋 memo.txt            # Development notes
-│   ├── 🖼️ question.png        # Problem specification
-│   ├── 🧪 test                # Test utilities
-│   ├── 💻 test.cpp            # C++ test code
-│   ├── 📊 data/               # Additional datasets
-│   └── 🤖 motor_integration/  # Motor control integration
-├── 📚 data/                   # Training & Test Data
-│   ├── 🖼️ images/
+├── py2cpp.cpp              # Python-C++ interface
+├── readme.md               # Project documentation  
+├── test                    # Test executable
+├── tictactoe.cpp           # Minimax algorithm (C++)
+├── yolo2py.py              # YOLOv5 inference script
+├── ee405_final/
+│   ├── board.txt           # Game state file
+│   ├── gpio.zip            # GPIO control files
+│   ├── memo.txt            # Development notes
+│   ├── question.png        # Problem specification
+│   ├── test                # Test utilities
+│   ├── test.cpp            # C++ test code
+│   ├── data/               # Additional datasets
+│   └── motor_integration/  # Motor control integration
+├── data/                   # Training & Test Data
+│   ├── images/
 │   │   ├── training/          # 100 training images
 │   │   └── validation/        # 28 validation images  
-│   ├── 🏷️ labels/
+│   ├── labels/
 │   │   ├── training.cache     # Training cache
 │   │   ├── validation.cache   # Validation cache
 │   │   ├── training/          # YOLO format labels
 │   │   └── validation/        # YOLO format labels
-│   └── 🧪 test/
+│   └── test/
 │       ├── test1.png          # Test image 1
 │       └── test2.png          # Test image 2
-└── 🔬 yolov5/                 # YOLOv5 model files
+└── yolov5/                    # YOLOv5 model files
 ```
 
----
+<br>
 
 ## 🛠️ Technology Stack
 
@@ -247,30 +253,7 @@ EE405_FINAL/
 - **Network**: Ethernet-based NFS communication
 - **IDE**: Cross-platform development tools
 
----
-
-## 🚀 Quick Start Guide
-
-### Prerequisites
-```bash
-# Python Dependencies
-pip install torch torchvision ultralytics opencv-python
-
-# C++ Compilation
-g++ -o tictactoe tictactoe.cpp
-
-# BeagleBone NFS Setup
-sudo apt-get install nfs-common
-sudo mount -t nfs [PC_IP]:[shared_folder] /mnt/nfs
-```
-
-### System Operation
-1. **Initialize Vision**: `python yolo2py.py`
-2. **Start Game Engine**: `./tictactoe` 
-3. **Begin Gameplay**: Place stone and signal completion
-4. **Autonomous Operation**: Robot analyzes and executes move
-
----
+<br>
 
 ## 📚 References & Documentation
 
@@ -280,7 +263,7 @@ sudo mount -t nfs [PC_IP]:[shared_folder] /mnt/nfs
 - **KAIST EE405**: Lab 4 & Lab 5 Practice Materials
 - **Zermelo's Theorem**: Game theory foundations for perfect information games
 
----
+<br>
 
 ## 🙏 Acknowledgments
 
@@ -294,11 +277,11 @@ This project was developed under the guidance of **KAIST School of Electrical En
 
 <div align="center">
 
-### 🎓 Educational Impact & Significance
+### Educational Impact & Significance
 
 *This project demonstrates the real-world integration of artificial intelligence, embedded systems, computer vision, and control engineering. It represents a complete cyber-physical system that showcases the convergence of multiple engineering disciplines in a practical, demonstrable application.*
 
-**🏆 KAIST EE405 Final Project | Fall 2019**
+**🏆 KAIST EE405 Final Project | Fall 2024**
 
 *Achieving seamless integration of Vision → AI → Communication → Control*
 
@@ -308,8 +291,8 @@ This project was developed under the guidance of **KAIST School of Electrical En
 
 ## 📸 Technical Gallery
 
-<details>
-<summary>🖼️ Click to view detailed system images and analysis</summary>
+<!-- <details> -->
+<!-- <summary>Click to view detailed system images and analysis</summary> -->
 
 ### System Components
 - **Hardware Setup**: Complete robotic system with Dynamixel arm and ceiling-mounted camera
@@ -328,7 +311,7 @@ This project was developed under the guidance of **KAIST School of Electrical En
 - **Game Theory**: Optimal strategic decision making
 - **Control Systems**: Precise robotic manipulation and positioning
 
-</details>
+<!-- </details> -->
 
 ---
 
@@ -336,6 +319,5 @@ This project was developed under the guidance of **KAIST School of Electrical En
 
 *⭐ This project showcases the integration of cutting-edge AI with practical embedded systems engineering*
 
-**Made with 🧠 and ⚙️ at KAIST**
 
 </div>
